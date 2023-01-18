@@ -6,8 +6,11 @@ Java'da "Employee" adında fabrika çalışanlarını temsil eden ve metotları 
 --Sınıfın Nitelikleri--
 
 name : Çalışanın adı ve soyadı
+
 salary : Çalışanın maaşı
+
 workHours : Haftalık çalışma saati
+
 hireYear : İşe başlangıç yılı
 
 --Sınıfın Metotları--
