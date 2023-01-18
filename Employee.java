@@ -32,13 +32,13 @@ public class Employee {
     }
 
     public double raiseSalary() {
-        double raise = 0;
+        double raise;
         int workingYear = (2022 - hireYear);
         if (workingYear < 10) {
             raise = (salary * 0.05);
-        } else if (10 <= workingYear && workingYear < 20) {
+        } else if (workingYear < 20) {
             raise = (salary * 0.10);
-        } else if (20 <= workingYear) {
+        } else{
             raise = (salary * 0.15);
         }
         return raise;
